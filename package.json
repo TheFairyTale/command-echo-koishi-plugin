@@ -1,8 +1,16 @@
 {
   "name": "koishi-plugin-command-echo",
-  "description": "设置指定的指令使其在收到指令时返回设置的字符串",
+  "description": "Set command that used to return strings. \n 设置指定的指令使其在收到指令时返回所设置的字符串",
   "version": "0.0.1",
+  "contributors": [                         
+    "TheFairyTale <986920241@qq.com>"
+  ],
   "main": "lib/index.js",
+  "homepage": "https://github.com/TheFairyTale/command-echo-koishi-plugin",
+  "repository": {                           // 源码仓库
+    "type": "git",
+    "url": "git+https://github.com/TheFairyTale/command-echo-koishi-plugin.git"
+  },        
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
